@@ -1,0 +1,14 @@
+created ec2 instance
+installed awscli,eksctl,kubectl,maven,java,jenkins,docker
+created eks cluster and ecr
+install required plugins,created jenkins pipeline 
+# integraton kubernetes with docker 
+create service account, clusterRole and clusterRole binding to that service account 
+create ns,token(secrets) in k8s
+create jenkins pipeline
+# kubectl get secrets -n ekart
+# kubectl describe secret ekart-service-token -n ekart
+run the job
+# kubectl get svc -n ekart(LB)
+# http://ab9e8f09295084917bb2ac9ca3b6d47f-387602480.us-west-1.elb.amazonaws.com:8070/
+
